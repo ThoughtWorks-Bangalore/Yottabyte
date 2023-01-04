@@ -12,8 +12,8 @@ const RedirectToThoughtworksPage = () => {
 
 export const Navbar = () => {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed" sx={{ bgcolor: "#edf1f3", boxShadow: "none", color: "black" }}>
+    <div className="app_bar">
+        <AppBar sx={{ bgcolor: "#edf1f3", boxShadow: "none", color: "black", position: "fixed" }}>
         <Toolbar className="navbar">
           <Typography className="navbar_button" variant="h7" component="div" onClick={RedirectToThoughtworksPage}>
             Thoughtworks
@@ -26,7 +26,9 @@ export const Navbar = () => {
             </div>
         </Toolbar>
       </AppBar>
-    </Box>
+
+    </div>
+    
   )
 }
 

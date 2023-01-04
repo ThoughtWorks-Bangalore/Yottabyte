@@ -17,3 +17,16 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 770px) {
+    .app_bar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .navbar_button, .buttons{
+        display: none;
+    }
+}
+
+
