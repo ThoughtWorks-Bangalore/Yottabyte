@@ -1,14 +1,10 @@
 import React from 'react';
 import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 
 import "./Navbar.css";
-
-const RedirectToThoughtworksPage = () => {
-    window.open("https://www.thoughtworks.com/");
-}
+import { RedirectToThoughtworksPage } from "./../helpers/ThoughtworksRedirection";
 
 export const Navbar = () => {
   return (
