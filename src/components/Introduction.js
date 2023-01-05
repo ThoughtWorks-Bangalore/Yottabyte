@@ -25,7 +25,7 @@ export const Introduction = () => {
             1<sup>st</sup> edtion
           </p>
           <h6 className="belowDotted">
-            25<sup>th</sup> - 26<sup>th</sup> September{" "}
+            25<sup>th</sup> - 26<sup>th</sup> September
           </h6>
         </div>
         <div className="days">
@@ -33,7 +33,7 @@ export const Introduction = () => {
           <h6 className="belowDotted">0 days left </h6>
         </div>
       </div>
-      <div>
+      <div className="buttonSection">
         <h4 className="agendaButton"> Agenda </h4>
         <h4 className="speakerButton"> Speakers </h4>
       </div>
