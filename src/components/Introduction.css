@@ -1,21 +1,70 @@
-.logo {
-    width: 20%;
-    height: 50%;
-    /* animation-name: BounceInLeft;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: both;
-    animation-play-state: running; */
+.introduction_section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
-/* 
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32%;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: both;
+  animation-play-state: running;
+  animation-name: BounceInLeft;
+}
+
+.heading {
+  font-family: "Bitter", sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-style: normal;
+  color: #000000;
+  text-rendering: optimizeLegibility;
+}
+.description {
+  font-family: "Inter", sans-serif;
+  font-weight: 347;
+  font-size: 1.7em;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+}
+
+@media only screen and (min-width: 768px) {
+  .heading {
+    line-height: 1.4;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .description {
+    font-size: 1.4em;
+  }
+}
+
 @keyframes BounceInLeft {
-    from {
-        left: 0px; top: 0px;
-    }
-    to {
-        left: 200px; top: 200px;
-    }
-} */
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateX(30px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

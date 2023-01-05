@@ -1,32 +1,32 @@
 .navbar_button:hover {
-    background-color: #003D4F;
-    opacity: 0.5;
-    color: white;
-    line-height: 60px;
+  background-color: #003d4f;
+  opacity: 0.5;
+  color: white;
+  line-height: 60px;
 }
 
 .navbar_button {
-    cursor: pointer;
-    padding: 0 15px;
+  cursor: pointer;
+  padding: 0 15px;
 }
 
-.navbar, .buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+.navbar,
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 770px) {
-    .app_bar {
-        display: none;
-    }
+  .app_bar {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 940px) {
-    .navbar_button, .buttons{
-        display: none;
-    }
+  .navbar_button,
+  .buttons {
+    display: none;
+  }
 }
-
-

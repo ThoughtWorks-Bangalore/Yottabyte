@@ -1,3 +1,3 @@
 export const RedirectToThoughtworksPage = () => {
-    window.open("https://www.thoughtworks.com/");
-}
+  window.open("https://www.thoughtworks.com/");
+};
