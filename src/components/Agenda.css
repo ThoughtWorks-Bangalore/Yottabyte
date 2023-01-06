@@ -7,7 +7,6 @@
   min-height: fit-content;
   font-family: "Inter", sans-serif;
   padding-bottom: 4em;
-
 }
 
 .agenda_heading {
@@ -73,6 +72,6 @@
   transition: background-color 300ms ease-out;
   padding: 0.4em 1em;
 }
-.schedule-info:last-child{
+.schedule-info:last-child {
   border-bottom: none;
 }
