@@ -4,7 +4,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 
 import "./Navbar.css";
-import { RedirectToThoughtworksPage } from "./../helpers/ThoughtworksRedirection";
+import { RedirectToURL } from "./../helpers/Redirection";
 
 export const Navbar = () => {
   return (
@@ -22,16 +22,16 @@ export const Navbar = () => {
             className="navbar_button"
             variant="h7"
             component="div"
-            onClick={RedirectToThoughtworksPage}
+            onClick={() => RedirectToURL("https://www.thoughtworks.com/")}
           >
             Thoughtworks
           </Typography>
           <div className="buttons">
             <div className="navbar_button" color="inherit">
-              About
+              <a href="#about" className="nav_links"> About </a>
             </div>
             <div className="navbar_button" color="inherit">
-              Agenda
+              <a href="#agenda" className="nav_links"> Agenda </a>
             </div>
             <div className="navbar_button" color="inherit">
               Speakers

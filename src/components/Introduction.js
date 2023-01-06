@@ -1,6 +1,6 @@
 import React from "react";
 import "./Introduction.css";
-import { RedirectToThoughtworksPage } from "./../helpers/ThoughtworksRedirection";
+import { RedirectToURL } from "../helpers/Redirection";
 import logo from "./../assets/tw-logo.png";
 
 export const Introduction = () => {
@@ -10,7 +10,7 @@ export const Introduction = () => {
         src={logo}
         alt="logo"
         className="logo"
-        onClick={RedirectToThoughtworksPage}
+        onClick={() => RedirectToURL("https://www.thoughtworks.com/")}
       />
       <h1 className="heading"> YottaBytes 2023, Bengaluru </h1>
       <p className="description">

@@ -3,6 +3,7 @@
   margin-right: auto;
   width: 59%;
   margin-bottom: 14.5em;
+  font-family: "Inter", sans-serif;
 }
 
 .logo {
@@ -18,6 +19,7 @@
   animation-fill-mode: both;
   animation-play-state: running;
   animation-name: BounceInLeft;
+  cursor: pointer;
 }
 
 .heading {
@@ -32,7 +34,7 @@
 }
 
 .description {
-  font-family: "Inter", sans-serif;
+  font-family: "", sans-serif;
   font-weight: 347;
   font-size: 1.9em;
   width: fit-content;
@@ -42,7 +44,6 @@
 }
 
 .belowDotted {
-  font-family: "Inter", sans-serif;
   font-weight: bold;
   margin-top: 2px;
   border-top: 1px dashed black;
@@ -85,7 +86,6 @@ sup {
 .agendaButton,
 .speakerButton {
   font-weight: bolder;
-  font-family: "Inter", sans-serif;
   margin-top: 0;
   width: 30%;
   margin-bottom: 0.25em;

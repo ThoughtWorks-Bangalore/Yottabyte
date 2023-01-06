@@ -1,0 +1,37 @@
+.agenda_section {
+  color: #000000;
+  background: #6b9e78;
+  padding: 1.8rem 0;
+  position: relative;
+  overflow: hidden;
+  clear: both;
+  min-height: fit-content;
+  font-family: "Inter", sans-serif;
+}
+
+.agenda_heading {
+  font-size: 75px;
+}
+
+.agenda_dates {
+  border-bottom: 1px dashed #003d4f;
+  margin-bottom: 0;
+  overflow: hidden;
+  max-width: 1000px;
+  text-align: left;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+.row {
+  line-height: 1.4;
+  font-style: normal;
+  color: #000000;
+  text-rendering: optimizeLegibility;
+  margin-top: 0;
+  margin-bottom: 0.1em;
+  font-weight: bolder;
+  font-size: x-large;
+}

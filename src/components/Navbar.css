@@ -8,6 +8,17 @@
 .navbar_button {
   cursor: pointer;
   padding: 0 15px;
+  text-decoration: none;
+}
+
+.nav_links:link,
+.nav_links:visited, .nav_links:active {
+  text-decoration: none;
+  color: black;
+}
+.nav_links:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .navbar,

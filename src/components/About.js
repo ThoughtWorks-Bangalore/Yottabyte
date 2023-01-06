@@ -5,22 +5,38 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
 
 import "./About.css";
+import { RedirectToURL } from "../helpers/Redirection";
 
 export const About = () => {
   return (
-    <div className="about_section">
+    <div className="about_section" id="about">
       <div className="social_links">
-        <div className="facebook_logo">
+        <div
+          className="facebook_logo"
+          onClick={() =>
+            RedirectToURL("https://www.facebook.com/Thoughtworks/")
+          }
+        >
           <ThumbUpAltIcon className="facebook_icon" />
         </div>
-        <div className="linkedin_logo">
+        <div
+          className="linkedin_logo"
+          onClick={() =>
+            RedirectToURL("https://www.linkedin.com/company/thoughtworks/")
+          }
+        >
           <LinkedInIcon className="linkedin_icon" />
         </div>
         <div className="twitter_logo">
-          <TwitterIcon className="twitter_icon" />
+          <TwitterIcon
+            className="twitter_icon"
+            onClick={() => RedirectToURL("https://twitter.com/thoughtworksIN")}
+          />
         </div>
         <div className="email_logo">
-          <EmailRoundedIcon className="email_icon" />
+          <a href="mailto:yottabytes-bangalore@thoughtworks.com">
+            <EmailRoundedIcon className="email_icon" />
+          </a>
         </div>
       </div>
       <div className="about_details">
@@ -41,7 +57,10 @@ export const About = () => {
         <p className="email_details">
           If you have any questions, you can send an email to:
         </p>
-        <a href="mailto:yottabytes-bangalore@thoughtworks.com" className="email">
+        <a
+          href="mailto:yottabytes-bangalore@thoughtworks.com"
+          className="email"
+        >
           <em> yottabytes-bangalore@thougtworks.com </em>
         </a>
       </div>
