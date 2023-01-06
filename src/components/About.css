@@ -1,0 +1,115 @@
+.about_section {
+  width: 100%;
+  background-color: black;
+  padding-top: 5em;
+  padding-bottom: 2em;
+  min-height: 0%;
+  color: white;
+  background: #000000;
+  font-family: "Inter", sans-serif;
+}
+
+.social_links {
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linkedin_logo,
+.twitter_logo,
+.email_logo,
+.facebook_logo {
+  font-size: 1.2em;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  margin: 0 0.1em;
+  position: relative;
+}
+
+.twitter_icon,
+.email_icon,
+.linkedin_icon,
+.facebook_icon {
+  transform: scale(1.7);
+  position: relative;
+  top: 17px;
+  color: black;
+}
+
+.linkedin_logo:hover,
+.twitter_logo:hover,
+.email_logo:hover,
+.facebook_logo:hover {
+  background-color: #003d4f;
+  cursor: pointer;
+}
+
+.twitter_icon:hover,
+.email_icon:hover,
+.linkedin_icon:hover,
+.facebook_icon:hover {
+  color: white;
+}
+
+.about_details {
+  max-width: 1000px;
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+}
+
+.about_heading {
+  font-weight: bolder;
+  font-size: 50px;
+  font-style: normal;
+  color: white;
+  text-rendering: optimizeLegibility;
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  padding: 0 2%;
+}
+
+.about_description {
+  font-size: 1.5em;
+  font-weight: 360;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+  padding: 0 2%;
+}
+
+.registration_details,
+.email {
+  font-size: x-large;
+  color: #f2617a;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.register_button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 360;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #003d4f;
+  font-size: large;
+  border-top: 0.5px solid white;
+}
+
+.email_details {
+  font-size: 1.4em;
+}

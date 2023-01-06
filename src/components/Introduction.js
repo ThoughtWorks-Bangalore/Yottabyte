@@ -1,8 +1,7 @@
 import React from "react";
 import "./Introduction.css";
 import { RedirectToThoughtworksPage } from "./../helpers/ThoughtworksRedirection";
-import logo from "./assets/tw-logo.png";
-import Typography from "@mui/material/Typography";
+import logo from "./../assets/tw-logo.png";
 
 export const Introduction = () => {
   return (
