@@ -28,10 +28,16 @@ export const Navbar = () => {
           </Typography>
           <div className="buttons">
             <div className="navbar_button" color="inherit">
-              <a href="#about" className="nav_links"> About </a>
+              <a href="#about" className="nav_links">
+                {" "}
+                About{" "}
+              </a>
             </div>
             <div className="navbar_button" color="inherit">
-              <a href="#agenda" className="nav_links"> Agenda </a>
+              <a href="#agenda" className="nav_links">
+                {" "}
+                Agenda{" "}
+              </a>
             </div>
             <div className="navbar_button" color="inherit">
               Speakers

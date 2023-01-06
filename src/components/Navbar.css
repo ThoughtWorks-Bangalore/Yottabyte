@@ -12,7 +12,8 @@
 }
 
 .nav_links:link,
-.nav_links:visited, .nav_links:active {
+.nav_links:visited,
+.nav_links:active {
   text-decoration: none;
   color: black;
 }
