@@ -5,6 +5,7 @@ import { About } from "./About";
 import "./Home.css";
 import { Agenda } from "./Agenda";
 import { Speakers } from "./Speakers";
+import { Footer } from "./Footer";
 
 export const Home = () => {
   return (
@@ -13,6 +14,7 @@ export const Home = () => {
       <About />
       <Agenda />
       <Speakers />
+      <Footer />
     </div>
   );
 };
