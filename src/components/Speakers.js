@@ -21,7 +21,7 @@ const SpeakerDescription = () => {
 
 export const Speakers = () => {
   return (
-    <div className="speakers_section">
+    <div className="speakers_section" id="speakers">
       <p className="speakers_heading">Speakers</p>
       <div className="speaker_list">
         <SpeakerDescription />

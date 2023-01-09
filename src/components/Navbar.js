@@ -29,18 +29,18 @@ export const Navbar = () => {
           <div className="buttons">
             <div className="navbar_button" color="inherit">
               <a href="#about" className="nav_links">
-                {" "}
-                About{" "}
+                About
               </a>
             </div>
             <div className="navbar_button" color="inherit">
               <a href="#agenda" className="nav_links">
-                {" "}
-                Agenda{" "}
+                Agenda
               </a>
             </div>
             <div className="navbar_button" color="inherit">
-              Speakers
+              <a href="#speakers" className="nav_links">
+                Speakers
+              </a>
             </div>
             <div className="navbar_button" color="inherit">
               Registration
