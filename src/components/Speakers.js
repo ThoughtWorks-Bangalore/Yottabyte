@@ -1,6 +1,8 @@
 import React from "react";
+
 import "./Speakers.css";
 import speakerImg from "../assets/speaker-img.jpeg";
+
 const SpeakerDescription = () => {
   return (
     <div className="speakers_list_description">
@@ -16,6 +18,7 @@ const SpeakerDescription = () => {
     </div>
   );
 };
+
 export const Speakers = () => {
   return (
     <div className="speakers_section">

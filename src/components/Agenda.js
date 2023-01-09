@@ -11,33 +11,21 @@ export const Agenda = () => {
           <p className="agenda_subheading">Day 1 - 25th March, 2022</p>
         </div>
         <div className="schedule-info">
-          <div className="timing">
-            <p>14:00 - 14:10</p>
-          </div>
+          <div className="timing">14:00 - 14:10</div>
           <div className="seperation">$</div>
-          <div className="detail">
-            <p>Introduction to Converge.</p>
-          </div>
+          <div className="detail">Introduction to Converge.</div>
         </div>
         <div className="schedule-info">
-          <div className="timing">
-            <p>14:00 - 14:10</p>
-          </div>
+          <div className="timing">14:00 - 14:10</div>
           <div className="seperation">$</div>
-          <div className="detail">
-            <p>Metaverse as a Service Vinodh Arumugam</p>
-          </div>
+          <div className="detail">Metaverse as a Service Vinodh Arumugam</div>
         </div>
         <div className="schedule-info">
-          <div className="timing">
-            <p>14:00 - 14:10</p>
-          </div>
+          <div className="timing">14:00 - 14:10</div>
           <div className="seperation">$</div>
           <div className="detail">
-            <p>
-              XaaS: Looking back to look forward Panelists - Madhavi Das, Rohit
-              Karlo, Gunjan Shukla Moderator - Vinod Sankaranarayanan
-            </p>
+            XaaS: Looking back to look forward Panelists - Madhavi Das, Rohit
+            Karlo, Gunjan Shukla Moderator - Vinod Sankaranarayanan
           </div>
         </div>
       </div>

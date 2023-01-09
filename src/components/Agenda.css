@@ -43,13 +43,6 @@
   background-color: #edf1f3;
 }
 
-@media screen and (max-width: 1300px) {
-  .agenda_schedule {
-    width: 90%;
-    min-width: 80%;
-  }
-}
-
 .timing {
   width: 30%;
   text-align: right;
@@ -72,6 +65,28 @@
   transition: background-color 300ms ease-out;
   padding: 0.4em 1em;
 }
+
 .schedule-info:last-child {
   border-bottom: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .agenda_schedule {
+    width: 90%;
+    min-width: 80%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .seperation {
+    display: none;
+  }
+  .schedule-info {
+    flex-direction: column;
+  }
+  .timing,
+  .detail {
+    text-align: center;
+    padding: auto;
+  }
 }
