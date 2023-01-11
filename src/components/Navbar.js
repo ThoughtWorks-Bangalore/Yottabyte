@@ -43,7 +43,9 @@ export const Navbar = () => {
               </a>
             </div>
             <div className="navbar_button" color="inherit">
-              Registration
+            <a href="https://forms.gle/V3LkS2YiRUyiRPgk9" className="nav_links" target="__blank">
+                Registration
+              </a>
             </div>
           </div>
         </Toolbar>

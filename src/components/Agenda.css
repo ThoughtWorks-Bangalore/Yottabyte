@@ -9,6 +9,17 @@
   padding-bottom: 4em;
 }
 
+.button_links:link,
+.button_links:visited,
+.button_links:active {
+  text-decoration: none;
+  color:white;
+}
+
+.button_links:hover {
+  text-decoration: none;
+}
+
 .agenda_heading {
   font-size: 5em;
   margin-left: auto;
@@ -90,3 +101,4 @@
     padding: auto;
   }
 }
+

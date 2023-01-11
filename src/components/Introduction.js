@@ -33,8 +33,16 @@ export const Introduction = () => {
         </div>
       </div>
       <div className="buttonSection">
-        <h4 className="agendaButton"> Agenda </h4>
-        <h4 className="speakerButton"> Speakers </h4>
+        <h4 className="agendaButton">
+        <a href="#agenda" className="button_links">
+                Agenda
+              </a>
+        </h4>
+        <h4 className="speakerButton"> 
+        <a href="#speakers" className="button_links">
+                Speakers
+              </a>
+        </h4>
       </div>
     </section>
   );

@@ -53,7 +53,7 @@ export const About = () => {
             26th March 2022!
           </i>
         </p>
-        <button className="register_button"> Register Now </button>
+        <button className="register_button" onClick={()=> RedirectToURL("https://forms.gle/V3LkS2YiRUyiRPgk9")}> Register Now </button>
         <p className="email_details">
           If you have any questions, you can send an email to:
         </p>
