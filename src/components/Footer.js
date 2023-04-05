@@ -8,7 +8,7 @@ export const Footer = () => {
       <div className="footer_text">
         <a href="/" className="footer_links">
           {" "}
-          Converge Bangalore{" "}
+          Yottabyte India{" "}
         </a>
         <p className="text"> sponsored by </p>
         <a href="https://www.thoughtworks.com/" className="footer_links" target="__blank">

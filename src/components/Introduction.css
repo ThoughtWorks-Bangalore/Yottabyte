@@ -46,7 +46,6 @@
 .belowDotted {
   font-weight: bold;
   margin-top: 2px;
-  border-top: 1px dashed black;
   color: #6b9e78;
   font-size: 1.1em;
   animation: fadeInUp 1s 1s ease both;

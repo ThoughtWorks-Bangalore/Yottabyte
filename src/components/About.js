@@ -34,34 +34,54 @@ export const About = () => {
           />
         </div>
         <div className="email_logo">
-          <a href="mailto:yottabytes-bangalore@thoughtworks.com">
+          <a href="mailto:yottabyte_india_core_group@thoughtworks.com">
             <EmailRoundedIcon className="email_icon" />
           </a>
         </div>
       </div>
       <div className="about_details">
-        <h4 className="about_heading"> XaaS - Anything as a Service </h4>
+        <h4 className="about_heading"> Data and AI for love and for money </h4>
         <p className="about_description">
-          XaaS - an acronym for Anything as a Service, a term widely used to
-          categorize products, tools and other services. In the 7th edition of
-          Converge we will focus on how XaaS is an alternative for everything,
-          and how it has been adopted by organizations and technologists.
+          In today’s dynamic business environment, leaders are increasingly
+          navigating economic duress with data driven decisions. Amidst the
+          multitude of decisions being made every minute – how do we ensure they
+          are being made for the right reasons? Will it help businesses generate
+          greater value to better understand the emotions behind customers’
+          decisions?
+        </p>
+        <p className="about_description">
+          Dare we say, decisions are a response to or of love. They could also
+          be related to money. We have seen how data and AI, when exclusively
+          tailored to love as a motivation, have customers fall in love with
+          brands. Data and AI, when adapted for money as a motivation, make
+          businesses exceedingly profitable.
+        </p>
+        <p className="about_description">
+          However, data and AI that is designed to look at love and money as
+          propellers can turn all that customer love into hard cash and cut the
+          cost of reaching one’s beloved customers. 2023’s Yottabyte dives into
+          how Data and AI can incorporate a love for responsible tech, for
+          respecting customers’ privacy, for operational efficiency, for revenue
+          maximization, for inclusivity and much more!
         </p>
         <p className="registration_details">
-          <i>
-            Don't forget to register for virtual Converge happening on 25th &
-            26th March 2022!
-          </i>
+          <i>Venue: Thoughtworks Koramangala and Gurgaon offices.</i>
         </p>
-        <button className="register_button" onClick={()=> RedirectToURL("https://forms.gle/V3LkS2YiRUyiRPgk9")}> Register Now </button>
+        <button
+          className="register_button"
+          onClick={() => RedirectToURL("https://forms.gle/V3LkS2YiRUyiRPgk9")}
+        >
+          {" "}
+          Register Now{" "}
+        </button>
         <p className="email_details">
           If you have any questions, you can send an email to:
         </p>
         <a
-          href="mailto:yottabytes-bangalore@thoughtworks.com"
+          href="mailto:yottabyte_india_core_group@thoughtworks.com"
           className="email"
         >
-          <em> yottabytes-bangalore@thougtworks.com </em>
+          <em> yottabyte_india_core_group@thoughtworks.com </em>
         </a>
       </div>
     </div>
