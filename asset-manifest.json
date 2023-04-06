@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.230bb50e.css",
+    "main.js": "/static/js/main.9bd1331d.js",
+    "static/js/787.def86ab8.chunk.js": "/static/js/787.def86ab8.chunk.js",
+    "static/media/tw-logo.png": "/static/media/tw-logo.5eb8cf528d15defa678e.png",
+    "static/media/speaker-img.jpeg": "/static/media/speaker-img.4883b9d494df4bef77d8.jpeg",
+    "index.html": "/index.html",
+    "main.230bb50e.css.map": "/static/css/main.230bb50e.css.map",
+    "main.9bd1331d.js.map": "/static/js/main.9bd1331d.js.map",
+    "787.def86ab8.chunk.js.map": "/static/js/787.def86ab8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.230bb50e.css",
+    "static/js/main.9bd1331d.js"
+  ]
+}
