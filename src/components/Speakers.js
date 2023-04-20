@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Speakers.css";
-import { SpeakerDetails } from "../helpers/SpeakerDetails";
+import { KeynoteSpeakerDetails, SpeakerDetails } from "../helpers/SpeakerDetails";
 
 const SpeakerDescription = ({ name, designation, image}) => {
 
@@ -25,6 +25,21 @@ export const Speakers = () => {
   return (
     <div className="speakers_section" id="speakers">
       <p className="speakers_heading">Speakers</p>
+      <div className="speaker_keynoteSpeakers_list">
+        {
+          KeynoteSpeakerDetails.map((speaker, index) => {
+            console.log(speaker);
+
+            return (
+              <SpeakerDescription 
+                key={index}
+                name={speaker.name} 
+                designation={speaker.designation} 
+                image={speaker.image} />
+            );
+          })
+        }
+      </div>
       <div className="speaker_list">
         {
           SpeakerDetails.map((speaker, index) => {

@@ -13,17 +13,27 @@ export const Agenda = () => {
         <div className="schedule-info">
           <div className="timing">10:00 - 10:45</div>
           <div className="seperation">$</div>
-          <div className="detail">Keynote</div>
+          <div className="detail">
+            <div>Keynote</div>
+            <div>Ashwin Sugavanam & Hemant Misra</div>
+          </div>
         </div>
         <div className="schedule-info">
           <div className="timing">10:45 - 11:00</div>
           <div className="seperation">$</div>
-          <div className="detail">Agenda & Ice Breaker</div>
+          <div className="detail">
+            <div>Agenda & Ice Breaker</div>
+            <div>Host</div>
+            </div>
         </div>
         <div className="schedule-info">
           <div className="timing">11:00 - 11:45</div>
           <div className="seperation">$</div>
-          <div className="detail">Bootstrapping Datamesh for a complex enterprise (TDK)</div>
+          <div className="detail">
+            <div>Bootstrapping Datamesh For A Complex Enterprise (TDK)
+              </div>
+              <div>Balvinder Khurana & Sarang Shinde</div>
+            </div>
         </div>
         <div className="schedule-info">
           <div className="timing">11:45 - 12:00</div>
@@ -34,28 +44,33 @@ export const Agenda = () => {
           <div className="timing">12:00 - 12:30</div>
           <div className="seperation">$</div>
           <div className="detail">
-          Continous Delivery for data pipelines
+            <div>
+          Continous Delivery For Data Pipelines</div>
+            <div>Mageswaran Muthukumar</div>
           </div>
         </div>
         <div className="schedule-info">
           <div className="timing">12:30 - 13:15</div>
           <div className="seperation">$</div>
-          <div className="detail">From data to diversity: a Data Strategy case study on Thoughtworks</div>
+          <div className="detail"><div>From Data To Diversity: a Data Strategy Case Study On Thoughtworks</div>
+          <div>Anumeha Verma & Adityan Ramkumar S B</div></div>
         </div>
         <div className="schedule-info">
           <div className="timing">13:15 - 14:00</div>
           <div className="seperation">$</div>
-          <div className="detail"> Lunch </div>
+          <div className="detail">Lunch</div>
         </div>
         <div className="schedule-info">
           <div className="timing">14:00 - 14:15</div>
           <div className="seperation">$</div>
-          <div className="detail">Game</div>
+          <div className="detail"><div>Game</div><div>Host</div></div>
         </div>
         <div className="schedule-info">
           <div className="timing">14:15 - 15:00</div>
           <div className="seperation">$</div>
-          <div className="detail">Dynamic pricing for hotel Industry</div>
+          <div className="detail">
+            <div>Dynamic Pricing For Hotel Industry</div>
+            <div>Inderpreet Singh</div></div>
         </div>
         <div className="schedule-info">
           <div className="timing">15:00 - 15:15</div>
@@ -65,7 +80,8 @@ export const Agenda = () => {
         <div className="schedule-info">
           <div className="timing">15:15 - 16:00</div>
           <div className="seperation">$</div>
-          <div className="detail"> Reproducible ML pipelines with Vertex AI, Github actions, Hydra and DVC </div>
+          <div className="detail"><div>Reproducible ML Pipelines With Vertex AI, Github Actions, Hydra And DVC</div>
+          <div>Jeremy Jackson & Paritosh Gupta</div></div>
         </div>
         <div className="schedule-info">
           <div className="timing">16:00 - 16:15</div>
@@ -75,12 +91,15 @@ export const Agenda = () => {
         <div className="schedule-info">
           <div className="timing">16:15 - 17:15</div>
           <div className="seperation">$</div>
-          <div className="detail"> Hands on workshop </div>
+          <div className="detail"> 
+          <div>Hands On Workshop</div>
+          <div>Bharath Hemachandran, Sanjaykumar S, Gurleen Kaur & Keerthivasan D</div></div>
         </div>
         <div className="schedule-info">
           <div className="timing">17:15 - 18:00</div>
           <div className="seperation">$</div>
-          <div className="detail"> Recruitment</div>
+          <div className="detail"><div>Closing Wrap-Up</div>
+          <div>Host</div></div>
         </div>
       </div>
       <div className="agenda_schedule">
@@ -90,18 +109,22 @@ export const Agenda = () => {
         <div className="schedule-info">
           <div className="timing">10:00 - 10:45</div>
           <div className="seperation">$</div>
-          <div className="detail">Keynote</div>
+          <div className="detail"><div>Keynote</div>
+            <div>Ashwin Sugavanam & Hemant Misra</div></div>
         </div>
         <div className="schedule-info">
           <div className="timing">10:45 - 11:00</div>
           <div className="seperation">$</div>
-          <div className="detail">Agenda & Ice Breaker</div>
+          <div className="detail"><div>Agenda & Ice Breaker</div>
+            <div>Host</div></div>
         </div>
         <div className="schedule-info">
           <div className="timing">11:00 - 11:45</div>
           <div className="seperation">$</div>
-          <div className="detail">Data Mesh : Streamlined Developer Experience in data mesh </div>
+          <div className="detail"><div>Data Mesh : Streamlined Developer Experience In Data Mesh </div>
+          <div>Manisha J</div></div>
         </div>
+        
         <div className="schedule-info">
           <div className="timing">11:45 - 12:00</div>
           <div className="seperation">$</div>
@@ -111,13 +134,17 @@ export const Agenda = () => {
           <div className="timing">12:00 - 12:30</div>
           <div className="seperation">$</div>
           <div className="detail">
-          Designing Fast Data Applications	
+            <div>
+          Designing Fast Data Applications</div>
+            <div>Murali Poola</div>	
           </div>
         </div>
         <div className="schedule-info">
           <div className="timing">12:30 - 13:15</div>
           <div className="seperation">$</div>
-          <div className="detail">Quality in the World of Data</div>
+          <div className="detail">
+            <div>Quality In The World of Data</div>
+            <div>Bharath Hemachandran</div></div>
         </div>
         <div className="schedule-info">
           <div className="timing">13:15 - 14:00</div>
@@ -127,12 +154,15 @@ export const Agenda = () => {
         <div className="schedule-info">
           <div className="timing">14:00 - 14:15</div>
           <div className="seperation">$</div>
-          <div className="detail">Game</div>
+          <div className="detail"><div>Game</div><div>Host</div></div>
         </div>
         <div className="schedule-info">
           <div className="timing">14:15 - 15:00</div>
           <div className="seperation">$</div>
-          <div className="detail">Domain based Big Data Loop for Autonomous Driving	</div>
+          <div className="detail">
+            <div>Domain Based Big Data Loop For Autonomous Driving	</div>
+            <div>Ajit Dongre</div>
+        </div>
         </div>
         <div className="schedule-info">
           <div className="timing">15:00 - 15:15</div>
@@ -142,7 +172,9 @@ export const Agenda = () => {
         <div className="schedule-info">
           <div className="timing">15:15 - 16:00</div>
           <div className="seperation">$</div>
-          <div className="detail"> Jugalbandi: GPT3-powered Indic Chatbot		 </div>
+          <div className="detail">
+            <div>Jugalbandi: GPT3-Powered Indic Chatbot</div>
+            <div>Aman Tiwari & Prathamesh Kalamkar</div></div>
         </div>
         <div className="schedule-info">
           <div className="timing">16:00 - 16:15</div>
@@ -152,12 +184,14 @@ export const Agenda = () => {
         <div className="schedule-info">
           <div className="timing">16:15 - 17:15</div>
           <div className="seperation">$</div>
-          <div className="detail"> Hands on workshop </div>
+          <div className="detail"><div>Hands On Workshop</div>
+          <div>Bharath Hemachandran, Sanjaykumar S, Gurleen Kaur & Keerthivasan D</div></div>
         </div>
         <div className="schedule-info">
           <div className="timing">17:15 - 18:00</div>
           <div className="seperation">$</div>
-          <div className="detail"> Recruitment</div>
+          <div className="detail"><div>Closing Wrap-Up</div>
+          <div>Host</div></div>
         </div>
       </div>
     </div>

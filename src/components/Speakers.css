@@ -38,7 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 600px;
+  width: 450px;
   margin-bottom: 3.5em;
 }
 
@@ -68,9 +68,22 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.speaker_keynoteSpeakers_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 
 @media screen and (max-width: 1000px) {
   .speaker_list {
+    position: relative;
+    width: 70%;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  }
+  .speaker_keynoteSpeakers_list {
     position: relative;
     width: 70%;
     flex-direction: column;
