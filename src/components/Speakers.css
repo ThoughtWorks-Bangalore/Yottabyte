@@ -44,6 +44,8 @@
 
 .image {
   width: 180px;
+  transform: scaleY(1.1);
+  height: 171px;
 }
 
 .speaker_details {

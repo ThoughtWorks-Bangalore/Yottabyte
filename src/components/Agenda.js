@@ -15,16 +15,13 @@ export const Agenda = () => {
           <div className="seperation">$</div>
           <div className="detail">
             <div>Keynote</div>
-            <div>Ashwin Sugavanam & Hemant Misra</div>
+            <div>Hemant Misra & Ashwin Sugavanam</div>
           </div>
         </div>
         <div className="schedule-info">
           <div className="timing">10:45 - 11:00</div>
           <div className="seperation">$</div>
-          <div className="detail">
-            <div>Agenda & Ice Breaker</div>
-            <div>Host</div>
-            </div>
+          <div className="detail">Agenda & Ice Breaker</div>
         </div>
         <div className="schedule-info">
           <div className="timing">11:00 - 11:45</div>
@@ -52,7 +49,7 @@ export const Agenda = () => {
         <div className="schedule-info">
           <div className="timing">12:30 - 13:15</div>
           <div className="seperation">$</div>
-          <div className="detail"><div>From Data To Diversity: a Data Strategy Case Study On Thoughtworks</div>
+          <div className="detail"><div>From Data To Diversity: A Data Strategy Case Study On Thoughtworks</div>
           <div>Anumeha Verma & Adityan Ramkumar S B</div></div>
         </div>
         <div className="schedule-info">
@@ -63,7 +60,7 @@ export const Agenda = () => {
         <div className="schedule-info">
           <div className="timing">14:00 - 14:15</div>
           <div className="seperation">$</div>
-          <div className="detail"><div>Game</div><div>Host</div></div>
+          <div className="detail">Game</div>
         </div>
         <div className="schedule-info">
           <div className="timing">14:15 - 15:00</div>
@@ -98,8 +95,7 @@ export const Agenda = () => {
         <div className="schedule-info">
           <div className="timing">17:15 - 18:00</div>
           <div className="seperation">$</div>
-          <div className="detail"><div>Closing Wrap-Up</div>
-          <div>Host</div></div>
+          <div className="detail">Closing Wrap-Up</div>
         </div>
       </div>
       <div className="agenda_schedule">
@@ -110,13 +106,12 @@ export const Agenda = () => {
           <div className="timing">10:00 - 10:45</div>
           <div className="seperation">$</div>
           <div className="detail"><div>Keynote</div>
-            <div>Ashwin Sugavanam & Hemant Misra</div></div>
+            <div>Hemant Misra & Ashwin Sugavanam</div></div>
         </div>
         <div className="schedule-info">
           <div className="timing">10:45 - 11:00</div>
           <div className="seperation">$</div>
-          <div className="detail"><div>Agenda & Ice Breaker</div>
-            <div>Host</div></div>
+          <div className="detail">Agenda & Ice Breaker</div>
         </div>
         <div className="schedule-info">
           <div className="timing">11:00 - 11:45</div>
@@ -154,8 +149,8 @@ export const Agenda = () => {
         <div className="schedule-info">
           <div className="timing">14:00 - 14:15</div>
           <div className="seperation">$</div>
-          <div className="detail"><div>Game</div><div>Host</div></div>
-        </div>
+          <div className="detail">Game</div>
+          </div>
         <div className="schedule-info">
           <div className="timing">14:15 - 15:00</div>
           <div className="seperation">$</div>
@@ -190,8 +185,7 @@ export const Agenda = () => {
         <div className="schedule-info">
           <div className="timing">17:15 - 18:00</div>
           <div className="seperation">$</div>
-          <div className="detail"><div>Closing Wrap-Up</div>
-          <div>Host</div></div>
+          <div className="detail">Closing Wrap-Up</div>
         </div>
       </div>
     </div>
