@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/yottabyte-2023/static/css/main.cc2fed1c.css",
-    "main.js": "/yottabyte-2023/static/js/main.87d81a36.js",
+    "main.css": "/yottabyte-2023/static/css/main.8a97a5e8.css",
+    "main.js": "/yottabyte-2023/static/js/main.891dff25.js",
     "static/js/787.def86ab8.chunk.js": "/yottabyte-2023/static/js/787.def86ab8.chunk.js",
     "static/media/Balvinder_Khurana.jpg": "/yottabyte-2023/static/media/Balvinder_Khurana.9fc19e20e5ae866bf4f2.jpg",
     "static/media/Aman_Tiwari.png": "/yottabyte-2023/static/media/Aman_Tiwari.fdc425384e574765ae81.png",
@@ -21,12 +21,12 @@
     "static/media/Ajit_Dongre.jpg": "/yottabyte-2023/static/media/Ajit_Dongre.87b93e738db1dcf2d92e.jpg",
     "static/media/tw-logo.png": "/yottabyte-2023/static/media/tw-logo.5eb8cf528d15defa678e.png",
     "index.html": "/yottabyte-2023/index.html",
-    "main.cc2fed1c.css.map": "/yottabyte-2023/static/css/main.cc2fed1c.css.map",
-    "main.87d81a36.js.map": "/yottabyte-2023/static/js/main.87d81a36.js.map",
+    "main.8a97a5e8.css.map": "/yottabyte-2023/static/css/main.8a97a5e8.css.map",
+    "main.891dff25.js.map": "/yottabyte-2023/static/js/main.891dff25.js.map",
     "787.def86ab8.chunk.js.map": "/yottabyte-2023/static/js/787.def86ab8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc2fed1c.css",
-    "static/js/main.87d81a36.js"
+    "static/css/main.8a97a5e8.css",
+    "static/js/main.891dff25.js"
   ]
 }
