@@ -89,7 +89,7 @@ export const Agenda = () => {
           <div className="timing">16:15 - 17:15</div>
           <div className="seperation">$</div>
           <div className="detail"> 
-          <div>Hands On Workshop</div>
+          <div>Using Generative AI: A Hands-On Workshop</div>
           <div>Bharath Hemachandran, Sanjaykumar S, Gurleen Kaur & Keerthivasan D</div></div>
         </div>
         <div className="schedule-info">
@@ -179,7 +179,7 @@ export const Agenda = () => {
         <div className="schedule-info">
           <div className="timing">16:15 - 17:15</div>
           <div className="seperation">$</div>
-          <div className="detail"><div>Hands On Workshop</div>
+          <div className="detail"><div>Using Generative AI: A Hands-On Workshop</div>
           <div>Bharath Hemachandran, Sanjaykumar S, Gurleen Kaur & Keerthivasan D</div></div>
         </div>
         <div className="schedule-info">

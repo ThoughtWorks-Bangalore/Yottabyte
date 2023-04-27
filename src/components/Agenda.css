@@ -1,5 +1,5 @@
 .agenda_section {
-  color: #000000;
+  color: white;
   background: #6b9e78;
   position: relative;
   overflow: hidden;
@@ -51,7 +51,8 @@
 
 .agenda_day:hover,
 .schedule-info:hover {
-  background-color: #edf1f3;
+  color: #edf1f3;
+  background-color: #000000;
 }
 
 .timing {

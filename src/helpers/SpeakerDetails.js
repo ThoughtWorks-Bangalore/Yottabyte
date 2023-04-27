@@ -39,7 +39,7 @@ export const SpeakerDetails = [
     },
     {
         name: 'Aman Tiwari',
-        designation: 'Data Engineer',
+        designation: 'Data Scientist',
         image: Aman_Tiwari
     },
     {
