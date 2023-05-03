@@ -27,7 +27,7 @@ export const Agenda = () => {
           <div className="timing">11:00 - 11:45</div>
           <div className="seperation">$</div>
           <div className="detail">
-            <div>Bootstrapping Datamesh For A Complex Enterprise (TDK)
+            <div>Bootstrapping Datamesh For A Complex Enterprise
               </div>
               <div>Balvinder Khurana & Sarang Shinde</div>
             </div>
